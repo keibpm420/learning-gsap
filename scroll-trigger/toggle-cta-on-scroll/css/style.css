@@ -1,0 +1,42 @@
+:root {
+    --color-bg: #eee;
+    --color-bg-header: #ddd;
+    --color-bg-contact-form: #191919;
+}
+
+.header {
+    height: 60px;
+    background-color: var(--color-bg-header);
+    color: #fff;
+}
+
+.kv {
+    height: 100svh;
+    background-color: var(--color-bg);
+}
+
+.main {
+    & > * {
+        margin-top: 80px;
+    }
+}
+
+.contact-form {
+    background-color: var(--color-bg);
+    height: 80vh;
+}
+
+.cta {
+    width: 280px;
+    height: 80px;
+    background-color: var(--color-bg-contact-form);
+    color: white;
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
