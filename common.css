@@ -188,3 +188,8 @@ iframe {
     clip-path: inset(50%) !important;
     margin: -1px !important;
 }
+
+.l-container-s {
+    width: min(760px, 90%);
+    margin-inline: auto;
+}
