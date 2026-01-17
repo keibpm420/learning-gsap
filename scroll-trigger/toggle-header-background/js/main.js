@@ -8,7 +8,7 @@ const initializeToggleHeaderOnScroll = () => {
         gsap.to(headerElement, {
             backgroundColor: "rgb(221 221 221 / 1)",
             duration: 0.5,
-            ease: "power4.out",
+            ease: "power1.out",
         });
     };
 
@@ -16,12 +16,11 @@ const initializeToggleHeaderOnScroll = () => {
         gsap.to(headerElement, {
             backgroundColor: "rgb(221 221 221 / 0)",
             duration: 0.5,
-            ease: "power4.out",
+            ease: "power1.out",
         });
     };
 
     ScrollTrigger.create({
-        markers: true,
         trigger: triggerElement,
 
         start: "bottom top",
