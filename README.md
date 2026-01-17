@@ -1,4 +1,4 @@
-# UI Animation: Vanilla JS to GSAP
+# JavaScript UI to GSAP
 
 頻出の UI アニメーションを「Vanilla JS」から「GSAP」へ書き換えました。
 
@@ -8,9 +8,10 @@
 
 ## 実装済み UI
 
--   [ドロップダウンメニュー](https://keibpm420.github.io/learning-gsap/dropdownmenu)
--   [ハンバーガーメニュー](https://keibpm420.github.io/learning-gsap/hamburgermenu)
--   [モーダル](https://keibpm420.github.io/learning-gsap/modal)
--   [タブメニュー](https://keibpm420.github.io/learning-gsap/tabmenu)
--   [アコーディオン](https://keibpm420.github.io/learning-gsap/accordion)
--   [IntersectionObserver](https://keibpm420.github.io/learning-gsap/intersectionobserver)
+-   ドロップダウンメニュー
+-   ハンバーガーメニュー
+-   モーダル
+-   タブメニュー
+-   アコーディオン
+-   IntersectionObserver
+-   ScrollTrigger (スクロール連動アニメーション)
